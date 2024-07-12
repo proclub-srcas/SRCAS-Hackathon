@@ -233,6 +233,7 @@ export default function Home() {
               for an 2-4 in-person hackathon.
             </p>
             <Link href="https://forms.gle/nSknZS2vkFQMn98G6" passHref>
+              <a target="_blank">
               <Button
                 size="sm"
                 className="bg-[#FAF8ED] text-black text-[1.125rem] font-semibold p-6 
@@ -246,6 +247,7 @@ export default function Home() {
                 Register Now!
                 <ArrowTopRightIcon className="w-5 h-5 ml-1" />
               </Button>
+              </a>
             </Link>
           </div>
         </div>
