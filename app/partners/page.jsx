@@ -22,9 +22,7 @@ export const metadata = {
     title: "Partners | SRCAS Hackathon",
     description:
       "Explore the invaluable support from our esteemed sponsors and partners at SRCAS Hackathon – the premier hackathon hosted by SRCAS. Discover their contributions and partnerships, playing a pivotal role in empowering the coding community.",
-    url: "https://hacksphere.vercel.app/partners",
-    images:
-      "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
+    url: "https://srcashackathon.live/partners",
     siteName: "SRCAS Hackathon",
     type: "website",
     locale: "en_US",
