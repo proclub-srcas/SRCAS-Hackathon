@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+`import Navbar from "@/components/Navbar";
 import ThemeTitle from "@/components/ThemeTitle";
 import { Button } from "@/components/ui/button";
 import { ArrowTopRightIcon } from "@radix-ui/react-icons";
@@ -232,7 +232,7 @@ export default function Home() {
               <br />
               for an 2-4 in-person hackathon.
             </p>
-            <Link href="https://forms.gle/nSknZS2vkFQMn98G6" passHref>
+            <Link href="https://forms.gle/nSknZS2vkFQMn98G6" result="blank" passHref>
               <Button
                 size="sm"
                 className="bg-[#FAF8ED] text-black text-[1.125rem] font-semibold p-6 
