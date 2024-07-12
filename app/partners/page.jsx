@@ -7,7 +7,6 @@ import deloitte from "@/public/partnersPage/deloitte.png";
 import tcs from "@/public/partnersPage/tcs.jpg";
 import startuptn from "@/public/partnersPage/startuptn.jpg";
 import viyen from "@/public/partnersPage/viyen.jpeg";
-import devfolio from "@/public/partnersPage/devfolio.webp";
 
 
 import FooterAnimation from "@/components/FooterAnimation";
