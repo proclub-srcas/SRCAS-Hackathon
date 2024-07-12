@@ -20,7 +20,6 @@ import Sarath from "@/public/Volunteers/sarath.webp";
 import Gokul from "@/public/Volunteers/gokul.webp";
 import Vikaas from "@/public/Volunteers/vikaas.webp";
 import Poornila from "@/public/Volunteers/poornila.webp";
-import nitya from "@/public/humansPage/nitya.jpg";
 
 // Mentors
 import principal from "@/public/Co-Ordinators/principalsrcas.jpeg";
