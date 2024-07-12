@@ -15,7 +15,7 @@ export const metadata = {
       "SRCAS Hackathon is the student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
     url: "https://hacksphere.vercel.app",
     images:
-      "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
+    //need to add img here,
     siteName: "SRCAS Hackathon",
     locale: "en_US",
     type: "website",
