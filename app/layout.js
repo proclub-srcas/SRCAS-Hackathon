@@ -8,15 +8,12 @@ export const metadata = {
   description:
     "SRCAS Hackathon is the student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
   keywords: "hackathon, SRCAS, coding, programming, tech",
-  url: "https://hacksphere.vercel.app",
+  url: "https://srcashackathon.live",
   openGraph: {
     title: "SRCAS Hackathon",
     description:
       "SRCAS Hackathon is the student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
-    url: "https://hacksphere.vercel.app",
-    images:
-    //need to add img here,
-    siteName: "SRCAS Hackathon",
+    url: "https://srcashackathon.live",
     locale: "en_US",
     type: "website",
   },
