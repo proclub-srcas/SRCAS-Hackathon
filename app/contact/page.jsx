@@ -15,7 +15,7 @@ export const metadata = {
     description:
       "Connect with us at SRCAS Hackathon! Reach out for assistance, questions, or just to say hello. Find information on reaching SRCAS, including travel options.",
     url: "https://srcashackathon.live/contact",
-    images: "https://drive.google.com/file/d/10-qw0jDBy2Rm0oyDv7j8Q6zMr4naBQuU/view?usp=sharing", 
+    images: "https://github.com/proclub-srcas/SRCAS-Hackathon/blob/main/public/srcas-hack-og.png", 
     siteName: "SRCAS Hackathon",
     type: "website",
     locale: "en_US",
