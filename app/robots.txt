@@ -3,4 +3,4 @@ User-agent: *
 Disallow: /notfound
 
 # Specify the path to the sitemap
-Sitemap: https://hackbyte.in/sitemap.xml
+Sitemap: https://srcashackathon.live/sitemap.xml
