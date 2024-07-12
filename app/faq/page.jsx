@@ -19,6 +19,7 @@ export const metadata = {
     title: "FAQ | SRCAS Hackathon",
     description: "Frequently asked questions about SRCAS Hackathon.",
     url: "https://srcashackathon.live/faq",
+    image: "https://drive.google.com/file/d/10-qw0jDBy2Rm0oyDv7j8Q6zMr4naBQuU/view?usp=sharing", 
     siteName: "SRCAS Hackathon",
     type: "website",
     locale: "en_US",
