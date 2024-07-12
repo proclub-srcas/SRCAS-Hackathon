@@ -23,6 +23,7 @@ export const metadata = {
     description:
       "Explore the invaluable support from our esteemed sponsors and partners at SRCAS Hackathon – the premier hackathon hosted by SRCAS. Discover their contributions and partnerships, playing a pivotal role in empowering the coding community.",
     url: "https://srcashackathon.live/partners",
+    image: "https://drive.google.com/file/d/10-qw0jDBy2Rm0oyDv7j8Q6zMr4naBQuU/view?usp=sharing", 
     siteName: "SRCAS Hackathon",
     type: "website",
     locale: "en_US",
