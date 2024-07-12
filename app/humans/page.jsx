@@ -41,6 +41,7 @@ export const metadata = {
     description:
       "Meet the team behind SRCAS Hackathon'24! Discover the faces and roles of the passionate individuals who are working tirelessly to make the hackathon a grand success. Join us and be a part of the team!",
     url: "https://srcashackathon.live/humans",
+    image: "https://drive.google.com/file/d/10-qw0jDBy2Rm0oyDv7j8Q6zMr4naBQuU/view?usp=sharing", 
     siteName: "SRCAS Hackathon",
     type: "website",
     locale: "en_US",
