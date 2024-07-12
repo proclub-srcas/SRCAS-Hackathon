@@ -14,6 +14,7 @@ export const metadata = {
     description:
       "SRCAS Hackathon is the student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
     url: "https://srcashackathon.live",
+    image: "https://drive.google.com/file/d/10-qw0jDBy2Rm0oyDv7j8Q6zMr4naBQuU/view?usp=sharing", 
     locale: "en_US",
     type: "website",
   },
