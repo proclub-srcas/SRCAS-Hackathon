@@ -1,4 +1,4 @@
-`import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar";
 import ThemeTitle from "@/components/ThemeTitle";
 import { Button } from "@/components/ui/button";
 import { ArrowTopRightIcon } from "@radix-ui/react-icons";
