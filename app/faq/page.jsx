@@ -18,9 +18,7 @@ export const metadata = {
   openGraph: {
     title: "FAQ | SRCAS Hackathon",
     description: "Frequently asked questions about SRCAS Hackathon.",
-    url: "https://hacksphere.vercel.app/faq",
-    images:
-      "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
+    url: "https://srcashackathon.live/faq",
     siteName: "SRCAS Hackathon",
     type: "website",
     locale: "en_US",
