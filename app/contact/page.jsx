@@ -14,9 +14,7 @@ export const metadata = {
     title: "Contact | SRCAS Hackathon",
     description:
       "Connect with us at SRCAS Hackathon! Reach out for assistance, questions, or just to say hello. Find information on reaching SRCAS, including travel options.",
-    url: "https://hacksphere.vercel.app/contact",
-    images:
-      "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
+    url: "https://srcashackathon.live/contact",
     siteName: "SRCAS Hackathon",
     type: "website",
     locale: "en_US",
