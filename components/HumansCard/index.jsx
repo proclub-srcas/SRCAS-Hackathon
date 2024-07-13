@@ -55,7 +55,7 @@ const HumansCard = ({
         >
           <Image
             src={profilepic}
-            className="w-[260px] h-[320px] outline-none object-cover"
+            className="w-[260px] h-[320px] p-4 outline-none object-cover"
             placeholder="blur"
             alt="Profile Picture"
           />
@@ -70,9 +70,6 @@ const HumansCard = ({
             <div className="flex gap-6 py-2">
               <SocialMediaIcon href={linkedin} Icon={LinkedInLogoIcon} />
               <SocialMediaIcon href={instagram} Icon={InstagramLogoIcon} />
-              {name !== "Aditya Raj" && (
-                <SocialMediaIcon href={github} Icon={GitHubLogoIcon} />
-              )}
               {name === "Aditya Raj" && (
                 <a href="https://www.behance.net/adi_ux" target="_blank">
                   <Image

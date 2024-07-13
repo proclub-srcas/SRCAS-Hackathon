@@ -54,7 +54,7 @@ export default function FAQ() {
     },
     {
       title: "Will the Hackathon be in person or online ?",
-      content: "HackSphere will be conducted in complete offline/in-person mode.",
+      content: "SRCAS Hackathon will be conducted in complete offline/in-person mode.",
     },
     {
       title: "What is the schedule of the hackathon?",

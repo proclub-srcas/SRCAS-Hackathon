@@ -233,7 +233,6 @@ export default function Home() {
               for an 2-4 in-person hackathon.
             </p>
             <Link href="https://forms.gle/nSknZS2vkFQMn98G6" passHref>
-              <a target="new">
                 <Button
                   size="sm"
                   className="bg-[#FAF8ED] text-black text-[1.125rem] font-semibold p-6 
@@ -247,7 +246,6 @@ export default function Home() {
                   Register Now!
                   <ArrowTopRightIcon className="w-5 h-5 ml-1" />
                 </Button>
-              </a>
             </Link>
           </div>
         </div>
@@ -273,18 +271,18 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div
+            {/* <div
               className="flex justify-center items-center py-2 md:py-2.5 px-4 md:px-6"
               style={{ border: "1.275px solid #FAF8ED" }}
             >
               <div className="flex justify-center items-center">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Sri_Ramakrishna_College_of_Arts_and_Science.svg/1200px-Sri_Ramakrishna_College_of_Arts_and_Science.svg.png"
+                  src="https://www.static-contents.youth4work.com/university/Documents/Colleges/CollegeBanner/9d0d42f9-c8a1-4b76-b658-8470f0da0854.png"
                   alt="SRCAS Logo"
                   className="w-[6rem] h-[3rem]"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
 
 
@@ -330,7 +328,7 @@ export default function Home() {
       <div className="w-full flex flex-col bg-[#101010]">
         <div className="flex justify-center items-center gap-20 mt-8 bg-black">
           <img
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Sri_Ramakrishna_College_of_Arts_and_Science.svg/1200px-Sri_Ramakrishna_College_of_Arts_and_Science.svg.png"
+            src="https://www.static-contents.youth4work.com/university/Documents/Colleges/CollegeBanner/9d0d42f9-c8a1-4b76-b658-8470f0da0854.png"
             alt="SRCAS Logo"
             className="w-[8rem] h-auto md:w-[16rem] md:h-auto"
           />

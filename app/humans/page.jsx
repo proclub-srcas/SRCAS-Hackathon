@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import HumansCard from "@/components/HumansCard";
 
 // Organizers
@@ -7,6 +6,8 @@ import chairman from "@/public/Volunteers/tinobretty.jpg";
 import assistantChairman from "@/public/Volunteers/johnsamuel.jpg";
 import secretary from "@/public/Volunteers/secretary.jpg";
 import viceChairman from "@/public/Volunteers/kanishka.jpg";
+import Aravinth from "@/public/Volunteers/aravinth.jpg";
+import Kaariniya from "@/public/Volunteers/kaariniya.jpg";
 import Balaguru from "@/public/Volunteers/balaguru.webp";
 import Sujithaa from "@/public/Volunteers/Sujithaa.webp";
 import SriSaratthi from "@/public/Volunteers/Sri Saratthi.webp";
@@ -56,7 +57,6 @@ export default function Team() {
       profilepic: chairman,
       linkedin: "https://www.linkedin.com/in/brittytino",
       instagram: "https://www.instagram.com/brittytino/",
-      github: "https://github.com/",
     },    
     {
       name: "John Samuel",
@@ -64,7 +64,6 @@ export default function Team() {
       profilepic: assistantChairman,
       linkedin: "https://www.linkedin.com/in/samjohnoffl",
       instagram: "https://www.instagram.com/samjohn_offl",
-      github: "https://github.com/",
     },
     {
       name: "Pravin B",
@@ -72,7 +71,6 @@ export default function Team() {
       profilepic: secretary,
       linkedin: "https://www.linkedin.com/in/pravinboopathi/",
       instagram: "https://www.instagram.com/bpravin._/",
-      github: "https://github.com/",
     },
     {
       name: "Kanishka C",
@@ -80,7 +78,6 @@ export default function Team() {
       profilepic: viceChairman,
       linkedin: "https://www.linkedin.com/in/kaniskha-c-2124a5292/",
       instagram: "https://www.instagram.com/kaniskha_chandrasekar/",
-      github: "https://github.com/",
     },
     {
       name: "Sarath P",
@@ -88,7 +85,6 @@ export default function Team() {
       profilepic: Sarath,
       linkedin: "http://www.linkedin.com/in/thisisthesarath",
       instagram: "http://www.instagram.com/sarath.online",
-      github: "https://www.github.com/thisisthesarath"
     },
     {
       name: "Aarthi S",
@@ -96,14 +92,19 @@ export default function Team() {
       profilepic: Aarthi,
       linkedin: "https://www.linkedin.com/in/aarthi-s-8914a9292?",
       instagram: "https://www.instagram.com/__.aarthi___?",
-      github: "https://www.github.com"
+    },
+    {
+      name: "Aravinth S",
+      role: "Organizer",
+      profilepic: Aravinth,
+      linkedin: "https://www.linkedin.com/in/aarthi-s-8914a9292?",
+      instagram: "https://www.instagram.com/__.aarthi___?",
     },
     {
       name: "Balaguru K",
       role: "Event Planner",
       profilepic: Balaguru,
       linkedin: "https://www.linkedin.com/in/balaguru-k-22157727a?",
-      github: "https://www.github.com"
     },
     {
       name: "Gokul S",
@@ -111,7 +112,6 @@ export default function Team() {
       profilepic: Gokul,
       linkedin: "https://www.linkedin.com/in/gokul-saravanan-s-74bb9327b?",
       instagram: "https://www.instagram.com/lil_dodge5?",
-      github: "https://www.github.com"
     },
     {
       name: "Harini",
@@ -119,14 +119,19 @@ export default function Team() {
       profilepic: harini,
       linkedin: "https://www.linkedin.com/in/harini-pechimuthu-1b47972b5",
       instagram: "https://www.instagram.com/harinipechimuthu?",
-      github: "https://www.github.com"
+    },
+    {
+      name: "Kaariniya",
+      role: "Organizer",
+      profilepic: Kaariniya,
+      linkedin: "https://www.linkedin.com/in/harini-pechimuthu-1b47972b5",
+      instagram: "https://www.instagram.com/harinipechimuthu?",
     },
     {
       name: "Nandita",
       role: "Content Creator",
       profilepic: Nandita,
       linkedin: "https://www.linkedin.com/in/nandita-s-a38948312?",
-      github: "https://www.github.com"
     },
     {
       name: "Poornila I P",
@@ -134,28 +139,24 @@ export default function Team() {
       profilepic: Poornila,
       linkedin: "https://www.linkedin.com/in/poornila-i-p-45b0b4292?",
       instagram: "https://www.instagram.com/click_.natural?",
-      github: "https://www.github.com"
     },
     {
       name: "Rishaba R U",
       role: "Social Media Manager",
       profilepic: Rishaba,
       linkedin: "https://www.linkedin.com/in/rishaba0305204?",
-      github: "https://www.github.com"
     },
     {
       name: "Saratthi",
       role: "Media Team",
       profilepic: SriSaratthi,
       linkedin: "https://www.linkedin.com/in/saratthi-080555166",
-      github: "https://www.github.com"
     },
     {
       name: "Sujithaa J",
       role: "Promotions",
       profilepic: Sujithaa,
       linkedin: "https://www.linkedin.com/in/sujithaa-j-41643b292?",
-      github: "https://www.github.com"
     },
     {
       name: "Velan J",
@@ -163,7 +164,6 @@ export default function Team() {
       profilepic: Velan,
       linkedin: "https://www.linkedin.com/in/velan-jayashankar",
       instagram: "https://www.instagram.com/ig__velan__",
-      github: "https://www.github.com"
     },
     {
       name: "Vikaas K S",
@@ -171,7 +171,6 @@ export default function Team() {
       profilepic: Vikaas,
       linkedin: "https://www.linkedin.com/in/vikaas-k-s-7644a9292?",
       instagram: "https://www.instagram.com/vikaas_0304?",
-      github: "https://www.github.com"
     },
     {
       name: "Vishnuraj R",
@@ -179,7 +178,6 @@ export default function Team() {
       profilepic: Vishnuraj,
       linkedin: "https://www.linkedin.com/in/vishnuraj-r-a3229324b/",
       instagram: "https://www.instagram.com/vishnu._.rvr/",
-      github: "https://www.github.com"
     },
     // {
     //   name: "Nitya",
