@@ -301,7 +301,7 @@ export default function Home() {
                 Icon={InstagramLogoIcon}
               />
               <SocialMediaIcon
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/company/proclub-srcas/"
                 Icon={LinkedInLogoIcon}
               />
               {/* <SocialMediaIcon
