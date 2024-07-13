@@ -118,7 +118,7 @@ export default function FAQ() {
             </div>
             <img
               className="w-44 h-44 md:hidden lg:block xl:h-60 xl:w-60 rotatingContainer"
-              src="/hacksphere.png"
+              src="/hacksphereLogo.png"
               alt="Get in touch"
             />
           </div>
