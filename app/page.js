@@ -14,19 +14,11 @@ import PrizeCard from "@/components/PrizeCard";
 import {
   InstagramLogoIcon,
   LinkedInLogoIcon,
-  DiscordLogoIcon,
 } from "@radix-ui/react-icons";
 import Link from "next/link";
-import StatisticCard from "@/components/StatisticCard";
-import NewsLetter from "@/components/NewsLetter";
 import "./faq/page.css";
 import FooterAnimation from "@/components/FooterAnimation";
 import Footer from "@/components/Footer";
-
-import Image from "next/image";
-import phase1 from "@/public/schedulePage/phase.png"; // Replace with your image paths
-import phase2 from "@/public/schedulePage/phase.png";
-import phase3 from "@/public/schedulePage/phase.png";
 
 const SocialMediaIcon = ({ Icon, href }) => (
   <a href={href} target="_blank">
@@ -35,24 +27,6 @@ const SocialMediaIcon = ({ Icon, href }) => (
 );
 
 export default function Home() {
-  const schedule = [
-    {
-      phase: "Registration and Idea Submission [10/07/2024 to 30/07/2024]",
-      description: "Each team should pick a problem statement and register themselves before the date and also submit their Idea in a PPT format we provide!",
-      image: phase1,
-    },
-    {
-      phase: "Announcement of Finalists from  Round 1 [05/08/2024]",
-      description: "The shortlisted teams from the first round will be announced on fifth of August!",
-      image: phase2,
-    },
-    {
-      phase: "The Final Showdown of 24 Hours [14/08/2024]",
-      description: "The Final begins at 14 August 8pm on our Campus at complete offline mode, 24 hours will be given to complete your solution!",
-      image: phase3,
-    },
-  ];
-
   const images = [
     "/footer/sdg/1.png",
     "/footer/sdg/2.png",

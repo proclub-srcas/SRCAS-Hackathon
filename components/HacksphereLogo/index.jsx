@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import Sketch from "./sktech";
 import Image from "next/image";
-import hacksphereLogo from "@/public/hacksphereLogo.png";
+import hacksphereLogo from "@/public/hacksphere.png";
 import "./style.css";
 
 const HacksphereLogo = () => {
@@ -45,7 +45,7 @@ const HacksphereLogo = () => {
         data-mouse="0.25"
         data-strength="0.23"
       >
-        <img src="/hacksphere.png" alt="Hacksphere Logo" id="hacksphereLogo" />
+        <img src="/hacksphere.png" alt="SRCAs Hackathon Logo" id="hacksphereLogo" />
       </div>
     </div>
   );
