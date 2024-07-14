@@ -4,13 +4,11 @@ import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import classes from "./index.module.css";
 import Link from "next/link";
-import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 
 const navigationItems = [
   { label: "Home", href: "/" },
   { label: "Partners", href: "/partners" },
-  // { label: "Schedule", href: "/schedule" },
   { label: "Humans", href: "/humans" },
   { label: "FAQs", href: "/faq" },
   { label: "Contact", href: "/contact" },
