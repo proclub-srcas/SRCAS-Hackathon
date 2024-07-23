@@ -9,7 +9,7 @@ import viceChairman from "@/public/Volunteers/kanishka.jpg";
 import Aravinth from "@/public/Volunteers/aravinth.jpg";
 import Kaariniya from "@/public/Volunteers/kaariniya.jpg";
 import Balaguru from "@/public/Volunteers/balaguru.webp";
-import Sujithaa from "@/public/Volunteers/Sujithaa.webp";
+import Sujithaa from "@/public/Volunteers/Sujithaa.jpeg";
 import SriSaratthi from "@/public/Volunteers/Sri Saratthi.webp";
 import harini from "@/public/Volunteers/harini.webp";
 import Rishaba from "@/public/Volunteers/rishaba.webp";

@@ -71,7 +71,7 @@ export default function Contact() {
       
           </div>
 
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+          {/* <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
             <div
               className="flex flex-col items-start p-6 gap-8 
                 rounded-[1rem] border border-[rgba(255,255,255,0.5)]"
@@ -151,7 +151,7 @@ export default function Contact() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex flex-col items-start gap-12 md:gap-20 md:flex-row">
             <div className="flex flex-col items-start gap-4 md:gap-8">

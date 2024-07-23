@@ -4,7 +4,7 @@ import TitleSponsorCard from "@/components/TitleSponsorCard";
 import SponsorCard from "@/components/ui/cards";
 
 import deloitte from "@/public/partnersPage/deloitte.png";
-import tcs from "@/public/partnersPage/tcs.jpg";
+import tcsion from "@/public/partnersPage/tcsion.webp";
 import startuptn from "@/public/partnersPage/startuptn.jpg";
 import viyen from "@/public/partnersPage/viyen.jpeg";
 
@@ -42,9 +42,9 @@ const normalSponsorsData = [
     sponsorimgsrc: viyen,
   },
   {
-    sponsor: "TCS",
+    sponsor: "TCS iON",
     category: "Knowledge Partner",
-    sponsorimgsrc: tcs,
+    sponsorimgsrc: tcsion,
   },
   {
     sponsor: "StartUpTN",
