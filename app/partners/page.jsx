@@ -32,6 +32,11 @@ export const metadata = {
 
 const normalSponsorsData = [
   {
+    sponsor: "StartUpTN",
+    category: "Knowledge Partner",
+    sponsorimgsrc: startuptn,
+  },
+  {
     sponsor: "Deloitte.",
     category: "Knowledge Partner",
     sponsorimgsrc: deloitte,
@@ -45,12 +50,7 @@ const normalSponsorsData = [
     sponsor: "TCS iON",
     category: "Knowledge Partner",
     sponsorimgsrc: tcsion,
-  },
-  {
-    sponsor: "StartUpTN",
-    category: "Knowledge Partner",
-    sponsorimgsrc: startuptn,
-  },
+  },  
 ];
 
 const inKindSponsorsData = [
