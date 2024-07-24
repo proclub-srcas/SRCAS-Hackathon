@@ -362,7 +362,7 @@ export default function Home() {
                 <div className="flex-1">
                   <PrizeCard
                     amount="10k"
-                    category="1st prize"
+                    category="1st prize/Theme"
                     default_bg="radial-gradient(116.96% 115.94% at 9.81% 9.24%, #383300 0%, rgba(56, 50, 0, 0.17) 100%)"
                     hover_bg="radial-gradient(116.96% 115.94% at 9.81% 9.24%, #383300 0%, rgba(56, 50, 0, 0.17) 100%)"
                   />
@@ -370,7 +370,7 @@ export default function Home() {
                 <div className="flex-1">
                   <PrizeCard
                     amount="5k"
-                    category="2nd prize"
+                    category="2nd prize/Theme"
                     default_bg="radial-gradient(148.8% 129.29% at 94.87% 3.94%, #363636 0%, rgba(26, 26, 26, 0.27) 100%)"
                     hover_bg="radial-gradient(371.89% 134.33% at 3.21% 1.26%,rgba(255, 255, 255, 0.07) 0%,rgba(217, 217, 217, 0.00) 100%)"
                   />
@@ -381,6 +381,27 @@ export default function Home() {
 
         </div>
       </div>
+
+
+      {/* Register for Hackathon Section */}
+      <div className="bg-[#202020] flex flex-col items-center justify-center px-4 p-8 md:pb-32 lg:px-[20%] md:pt-48 pt-24">
+        <div className="text-center max-w-[700px]">
+          <h2 className="text-white text-3xl md:text-4xl font-medium leading-[44px] mb-4">
+            Register for the Hackathon
+          </h2>
+          <p className="text-[#C3C3C3] font-['Inter'] font-normal text-lg leading-7 mb-6">
+            Make sure to register for the hackathon before July 31 to secure your spot. Click the button below to register now and participate in this exciting event!
+          </p>
+          <a
+            href="https://forms.gle/nSknZS2vkFQMn98G6"
+            className="bg-red-500 text-white px-6 py-3 rounded-lg font-medium text-lg hover:bg-red-600 transition-colors duration-300"
+            target="_blank"
+          >
+            Register Now
+          </a>
+        </div>
+      </div>
+
 
 
 
@@ -405,29 +426,46 @@ export default function Home() {
               <div className="w-full md:w-3/5 flex flex-col gap-5">
                 {theme.problems.map((problem, problemIndex) => (
                   <div key={problemIndex} className="mb-8">
-                    <Accordion type="single" collapsible>
-                      <AccordionItem value={`item-${problemIndex}`} className="py-4 md:p-8">
-                        <AccordionTrigger className="max-w-[592px] text-white text-2xl font-medium leading-7">
-                          {problem.title}
-                        </AccordionTrigger>
-                        <AccordionContent>
-                          <div className="max-w-[592px] text-gray-200 text-lg font-normal font-['Inter'] leading-7">
-                            <p><strong>Description:</strong> {problem.description}</p>
-                            <p><strong>Expected Outcome:</strong> {problem.expectedOutcome}</p>
-                            <p><strong>SDG:</strong> {problem.SDG}</p>
-                            <p><strong>Type:</strong> {problem.type}</p>
-                          </div>
-                        </AccordionContent>
-                      </AccordionItem>
-                    </Accordion>
+                    <div className="py-4 md:p-8">
+                      <div className="max-w-[592px] text-white text-2xl font-medium leading-7">
+                        {problem.title}
+                      </div>
+                      <div className="max-w-[592px] text-gray-200 text-lg font-normal font-['Inter'] leading-7 mt-4">
+                        <p><strong>Description:</strong> {problem.description}</p>
+                        <p><strong>Expected Outcome:</strong> {problem.expectedOutcome}</p>
+                        <p><strong>SDG:</strong> {problem.SDG}</p>
+                        <p><strong>Type:</strong> {problem.type}</p>
+                      </div>
+                    </div>
                   </div>
                 ))}
               </div>
-
             </div>
           </div>
         ))}
       </div>
+
+
+      {/* Download PPT Section */}
+      <div className="bg-[#101010] flex flex-col items-center justify-center min-h-screen px-2 p-2 md:pb-8 lg:px-[5%] md:pt-12 pt-6">
+        <div className="text-center max-w-[700px]">
+          <h2 className="text-white text-3xl md:text-4xl font-medium leading-[44px] mb-2 md:mb-3">
+            Download the PPT Template
+          </h2>
+          <p className="text-[#C3C3C3] font-['Inter'] font-normal text-lg leading-7 mb-3 md:mb-4">
+            Click the button below to download the PPT template. Fill out the template with your solution and submit it according to the instructions provided. Make sure to include all the necessary details to clearly convey your solution.
+          </p>
+          <a
+            href="https://docs.google.com/presentation/d/1BB-OEiM0qulFVqKeKm4ekJ1VULCsgKFT/edit?usp=drivesdk&ouid=114882038934280859740&rtpof=true&sd=true"
+            download
+            className="bg-green-500 text-white px-6 py-3 rounded-lg font-medium text-lg hover:bg-green-600 transition-colors duration-300"
+            target="_blank"
+          >
+            Download PPT Template
+          </a>
+        </div>
+      </div>
+
 
 
 
