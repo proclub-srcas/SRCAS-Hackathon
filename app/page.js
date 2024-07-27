@@ -4,13 +4,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowTopRightIcon } from "@radix-ui/react-icons";
 import { HacksphereLogo } from "@/components/HacksphereLogo";
 import TextAnimation from "@/components/TextAnimation";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import PrizeCard from "@/components/PrizeCard";
+import PrizeCardDup from "@/components/PrizeCard copy";
 import {
   InstagramLogoIcon,
   LinkedInLogoIcon,
@@ -55,21 +50,24 @@ export default function Home() {
         {
           title: "T1PS01: Develop a Voice-Based Data Entry System for Accessibility",
           description: "Create a system enabling individuals with limited typing abilities or visual impairments to input data using natural language commands, promoting accessibility in digital interactions.",
-          expectedOutcome: "Creation of a voice-based data entry system that enables individuals with limited typing abilities or visual impairments to interact with digital platforms using natural language. This system will promote digital inclusion, aiming to increase digital accessibility for 1 million users globally. Note: The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
+          expectedOutcome: "Creation of a voice-based data entry system that enables individuals with limited typing abilities or visual impairments to interact with digital platforms using natural language. This system will promote digital inclusion, aiming to increase digital accessibility for 1 million users globally.",
+          note:"The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
           SDG: "SDG 10 - Reduced Inequalities",
           type: "Software"
         },
         {
           title: "T1PS02: Create a Microfinance Platform for Women Entrepreneurs",
           description: "Establish a blockchain-powered platform to provide women entrepreneurs in underserved communities with access to credit, financial literacy resources, and mentorship, empowering gender equality and economic growth.",
-          expectedOutcome: "Establishment of a blockchain-powered microfinance platform providing women entrepreneurs in underserved communities with access to credit, financial literacy resources, and mentorship. This platform will empower gender equality and economic growth, with a target of supporting 100,000 women entrepreneurs and increasing their business success rates by 40%. Note: The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
+          expectedOutcome: "Establishment of a blockchain-powered microfinance platform providing women entrepreneurs in underserved communities with access to credit, financial literacy resources, and mentorship. This platform will empower gender equality and economic growth, with a target of supporting 100,000 women entrepreneurs and increasing their business success rates by 40%.",
+          note:"The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
           SDG: "SDG 5 - Gender Equality, SDG 8 - Decent Work and Economic Growth",
           type: "Software"
         },
         {
           title: "T1PS03: Digital Reputation Management",
           description: "Offer tools and services to monitor and manage online reputation across social media and search engine results, protecting brand integrity and promoting responsible digital citizenship.",
-          expectedOutcome: "Development of tools and services for monitoring and managing online reputations across social media and search engines. This service will protect brand integrity and promote responsible digital citizenship, aiming to reduce negative online incidents and improve reputation scores for 5,000 individuals and businesses by 30%. Note: The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
+          expectedOutcome: "Development of tools and services for monitoring and managing online reputations across social media and search engines. This service will protect brand integrity and promote responsible digital citizenship, aiming to reduce negative online incidents and improve reputation scores for 5,000 individuals and businesses by 30%.",
+          note:"The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
           SDG: "SDG 16 - Peace, Justice, and Strong Institutions",
           type: "Software"
         }
@@ -82,21 +80,24 @@ export default function Home() {
         {
           title: "T2PS01: Precision Agriculture for Sustainable Food Production",
           description: "Implement AI-driven solutions to optimize resource allocation, monitor crop health, and manage pests and diseases, promoting sustainable farming practices and enhancing food security.",
-          expectedOutcome: "Implementation of AI-driven tools to optimize resource use, monitor crop health, and manage pests in real-time. This approach will enhance sustainable farming practices, increase crop yields by 15%, and contribute to food security and conservation goals. Note: The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
+          expectedOutcome: "Implementation of AI-driven tools to optimize resource use, monitor crop health, and manage pests in real-time. This approach will enhance sustainable farming practices, increase crop yields by 15%, and contribute to food security and conservation goals.",
+          note:"The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
           SDG: "SDG 2 - Zero Hunger, SDG 15 - Life on Land",
           type: "Hardware and Software (any one of the solution is enough)"
         },
         {
           title: "T2PS02: NFT-Based Conservation Funding Platform",
           description: "Establish a platform using NFTs to fund environmental conservation projects, such as wildlife protection and habitat restoration, by tokenizing digital artworks and experiences.",
-          expectedOutcome: "Establishment of a platform leveraging NFTs to raise funds for environmental conservation projects. By tokenizing digital artworks and experiences, this platform will generate substantial funding for wildlife protection and habitat restoration, targeting an annual increase of $10 million in conservation investments. Note: The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
+          expectedOutcome: "Establishment of a platform leveraging NFTs to raise funds for environmental conservation projects. By tokenizing digital artworks and experiences, this platform will generate substantial funding for wildlife protection and habitat restoration, targeting an annual increase of $10 million in conservation investments.",
+          note:"The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
           SDG: "SDG 14 - Life Below Water, SDG 15 - Life on Land",
           type: "Software"
         },
         {
           title: "T2PS03: Augmented Reality Farming Simulator",
           description: "Design an AR application to simulate farming scenarios, allowing farmers to test crop management strategies virtually before implementation, improving agricultural efficiency and productivity.",
-          expectedOutcome: "Development of an AR application allowing farmers to simulate and test crop management strategies virtually. This tool will improve agricultural efficiency and productivity, reducing trial-and-error in actual farming and increasing crop yields by 10% through better planning and resource management. Note: The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
+          expectedOutcome: "Development of an AR application allowing farmers to simulate and test crop management strategies virtually. This tool will improve agricultural efficiency and productivity, reducing trial-and-error in actual farming and increasing crop yields by 10% through better planning and resource management.",
+          note:"The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
           SDG: "SDG 2 - Zero Hunger, SDG 9 - Industry, Innovation, and Infrastructure",
           type: "Software"
         }
@@ -107,23 +108,26 @@ export default function Home() {
       description: "Explore innovative solutions for integrating renewable energy sources into smart grids to promote sustainable and efficient energy management.",
       problems: [
         {
-              title: "T3PS01: Decentralized Renewable Energy Systems",
-              description: "Develop a decentralized renewable energy system that integrates solar, wind, and other renewable sources into local energy grids. This system should optimize energy distribution and storage at the community level.",
-              expectedOutcome: "Creation of a decentralized energy system that integrates various renewable sources, reducing dependency on centralized power plants and fossil fuels. This system will increase the adoption of renewable energy by 30% in targeted communities and decrease energy costs by 20%. Note: The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
-              SDG: "SDG 7 - Affordable and Clean Energy, SDG 11 - Sustainable Cities and Communities",
-              type: "Hardware and Software (any one of the solution is enough)",
+          title: "T3PS01: Decentralized Renewable Energy Systems",
+          description: "Develop a decentralized renewable energy system that integrates solar, wind, and other renewable sources into local energy grids. This system should optimize energy distribution and storage at the community level.",
+          expectedOutcome: "Creation of a decentralized energy system that integrates various renewable sources, reducing dependency on centralized power plants and fossil fuels. This system will increase the adoption of renewable energy by 30% in targeted communities and decrease energy costs by 20%.",
+          note:"The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
+          SDG: "SDG 7 - Affordable and Clean Energy, SDG 11 - Sustainable Cities and Communities",
+          type: "Hardware and Software (any one of the solution is enough)",
         },
         {
           title: "T3PS02: AI-Driven Energy Management Platforms",
           description: "Create an AI-driven platform for smart energy management that monitors and optimizes energy usage in real-time for residential and commercial buildings. The platform should also predict and manage peak loads to enhance grid stability.",
-          expectedOutcome: "Development of an AI-driven energy management platform that reduces energy consumption by 15% and enhances grid stability by predicting and managing peak loads. This platform will contribute to more efficient energy use and lower energy bills for users. Note: The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
+          expectedOutcome: "Development of an AI-driven energy management platform that reduces energy consumption by 15% and enhances grid stability by predicting and managing peak loads. This platform will contribute to more efficient energy use and lower energy bills for users.",
+          note:"The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
           SDG: "SDG 7 - Affordable and Clean Energy, SDG 9 - Industry, Innovation, and Infrastructure",
           type: "Software",
         },
         {
           title: "T3PS03: Blockchain for Renewable Energy Trading",
           description: "Implement a blockchain-based platform for peer-to-peer renewable energy trading. This platform will allow individuals and businesses to buy, sell, and trade excess renewable energy directly, promoting decentralized energy markets.",
-          expectedOutcome: "Establishment of a blockchain-based energy trading platform that facilitates peer-to-peer trading of renewable energy. This will increase the efficiency of energy markets, empower consumers, and potentially reduce energy waste by 25%. Note: The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
+          expectedOutcome: "Establishment of a blockchain-based energy trading platform that facilitates peer-to-peer trading of renewable energy. This will increase the efficiency of energy markets, empower consumers, and potentially reduce energy waste by 25%.",
+          note:"The idea/solution is not limited to this expected outcome. We encourage you to think outside the box and come up with your own innovative solutions and ideas as well!",
           SDG: "SDG 7 - Affordable and Clean Energy, SDG 12 - Responsible Consumption and Production",
           type: "Software",
         }
@@ -384,7 +388,7 @@ export default function Home() {
 
 
       {/* Register for Hackathon Section */}
-      <div className="bg-[#202020] flex flex-col items-center justify-center px-4 p-8 md:pb-32 lg:px-[20%] md:pt-48 pt-24">
+      <div className="bg-[#202020] flex flex-col items-center min-h-[250px] justify-center px-4 p-2 md:pb-20 lg:px-[5%] md:pt-12 pt-6">
         <div className="text-center max-w-[700px]">
           <h2 className="text-white text-3xl md:text-4xl font-medium leading-[44px] mb-4">
             Register for the Hackathon
@@ -431,9 +435,10 @@ export default function Home() {
                         {problem.title}
                       </div>
                       <div className="max-w-[592px] text-gray-200 text-lg font-normal font-['Inter'] leading-7 mt-4">
-                        <p><strong>Description:</strong> {problem.description}</p>
-                        <p><strong>Expected Outcome:</strong> {problem.expectedOutcome}</p>
-                        <p><strong>SDG:</strong> {problem.SDG}</p>
+                        <p><strong>Description:</strong> {problem.description}</p><br></br>
+                        <p><strong>Expected Outcome:</strong> {problem.expectedOutcome}</p><br></br>
+                        <p><strong>Note:</strong> {problem.note}</p><br></br>
+                        <p><strong>SDG:</strong> {problem.SDG}</p><br></br>
                         <p><strong>Type:</strong> {problem.type}</p>
                       </div>
                     </div>
@@ -446,27 +451,7 @@ export default function Home() {
       </div>
 
 
-      {/* Download PPT Section */}
-      <div className="bg-[#101010] flex flex-col items-center justify-center min-h-screen px-2 p-2 md:pb-8 lg:px-[5%] md:pt-12 pt-6">
-        <div className="text-center max-w-[700px]">
-          <h2 className="text-white text-3xl md:text-4xl font-medium leading-[44px] mb-2 md:mb-3">
-            Download the PPT Template
-          </h2>
-          <p className="text-[#C3C3C3] font-['Inter'] font-normal text-lg leading-7 mb-3 md:mb-4">
-            Click the button below to download the PPT template. Fill out the template with your solution and submit it according to the instructions provided. Make sure to include all the necessary details to clearly convey your solution.
-          </p>
-          <a
-            href="https://docs.google.com/presentation/d/1BB-OEiM0qulFVqKeKm4ekJ1VULCsgKFT/edit?usp=drivesdk&ouid=114882038934280859740&rtpof=true&sd=true"
-            download
-            className="bg-green-500 text-white px-6 py-3 rounded-lg font-medium text-lg hover:bg-green-600 transition-colors duration-300"
-            target="_blank"
-          >
-            Download PPT Template
-          </a>
-        </div>
-      </div>
-
-
+      <PrizeCardDup/>
 
 
       <div className="bg-[#101010] flex flex-col min-h-screen p-4 md:pb-16 lg:px-[10%] md:pt-24 pt-16">
