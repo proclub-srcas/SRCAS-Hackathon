@@ -55,7 +55,7 @@ const HumansCard = ({
         >
           <Image
             src={profilepic}
-            className="w-[260px] h-[320px] p-4 outline-none object-cover"
+            className="w-[260px] h-[260px] rounded-full outline-none object-cover"
             placeholder="blur"
             alt="Profile Picture"
           />

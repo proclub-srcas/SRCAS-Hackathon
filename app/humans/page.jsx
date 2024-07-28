@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import HumansCard from "@/components/HumansCard";
 
 // Organizers
-import chairman from "@/public/Volunteers/tinobretty.jpg";
+import chairman from "@/public/Volunteers/tinobretty.png";
 import assistantChairman from "@/public/Volunteers/johnsamuel.jpg";
 import secretary from "@/public/Volunteers/secretary.jpg";
 import viceChairman from "@/public/Volunteers/kanishka.jpg";
@@ -247,7 +247,7 @@ export default function Team() {
         >
           <div
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 
-              place-content-center place-items-center gap-10"
+              place-content-center place-items-center gap-10 "
           >
             {organizerData.map((human, index) => (
               <HumansCard key={index} index={index} {...human} />

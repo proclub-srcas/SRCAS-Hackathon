@@ -27,7 +27,7 @@ const PrizeCardDup = ({ amount, category }) => {
             Click the button below to download the PPT template. Fill out the template with your solution and submit it according to the instructions provided. Make sure to include all the necessary details to clearly convey your solution.
           </p>
           <a
-            href="https://docs.google.com/presentation/d/1BB-OEiM0qulFVqKeKm4ekJ1VULCsgKFT/edit?usp=drivesdk&ouid=114882038934280859740&rtpof=true&sd=true"
+            href="SRCAShackathon.pptx"
             download
             className="bg-green-500 text-white px-6 py-3 rounded-lg font-medium text-lg hover:bg-green-600 transition-colors duration-300"
             target="_blank"
