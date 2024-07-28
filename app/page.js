@@ -180,8 +180,7 @@ export default function Home() {
         title: "Be original, but use open-source tools ethically."
       },
       {
-        title: "Idea submission should be in the following PPT format [Click here to download]",
-        link: "https://docs.google.com/presentation/d/1BB-OEiM0qulFVqKeKm4ekJ1VULCsgKFT/edit?usp=drivesdk&ouid=114882038934280859740&rtpof=true&sd=true"
+        title: "Idea submission should be in the above mentioned PPT format",
       }
     ]
   }
