@@ -319,7 +319,11 @@ export default function Home() {
 
       <div className="container mx-auto p-4">
         <h1 className="text-2xl font-bold mb-4">Registration endS on 31st July 2024! REGISTER SOON!</h1>
-        <ScrollingText />
+        <div className="overflow-hidden whitespace-nowrap relative bg-gray-200 border border-gray-300">
+          <div className="scroll-left p-4">
+            This text will scroll from right to left continuously.
+          </div>
+        </div>
       </div>
       
       <div className="bg-black py-10">
