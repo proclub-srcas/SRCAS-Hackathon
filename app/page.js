@@ -317,14 +317,6 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container mx-auto p-4">
-        <h1 className="text-2xl font-bold mb-4">Registration endS on 31st July 2024! REGISTER SOON!</h1>
-        <div className="overflow-hidden whitespace-nowrap relative bg-gray-200 border border-gray-300">
-          <div className="scroll-left p-4">
-            This text will scroll from right to left continuously.
-          </div>
-        </div>
-      </div>
       
       <div className="bg-black py-10">
         <h2 className="text-white text-center text-3xl md:text-4xl font-bold mb-10">Schedule</h2>
