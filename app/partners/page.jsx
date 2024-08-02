@@ -45,12 +45,7 @@ const normalSponsorsData = [
     sponsor: "Viyen Biotech",
     category: "Knowledge Partner",
     sponsorimgsrc: viyen,
-  },
-  {
-    sponsor: "TCS iON",
-    category: "Knowledge Partner",
-    sponsorimgsrc: tcsion,
-  },  
+  }
 ];
 
 const inKindSponsorsData = [

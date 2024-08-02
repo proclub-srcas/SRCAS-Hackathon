@@ -3,14 +3,14 @@ import HumansCard from "@/components/HumansCard";
 
 // Organizers
 import chairman from "@/public/Volunteers/tinobretty.png";
-import assistantChairman from "@/public/Volunteers/johnsamuel.jpg";
+import assistantChairman from "@/public/Volunteers/john.jpg";
 import secretary from "@/public/Volunteers/secretary.jpg";
 import viceChairman from "@/public/Volunteers/kanishka.jpg";
-import Aravinth from "@/public/Volunteers/aravinth.jpg";
+import Bharathvikraman from "@/public/Volunteers/bharathvikraman.jpg";
 import Kaariniya from "@/public/Volunteers/kaariniya.jpg";
 import Balaguru from "@/public/Volunteers/balaguru.jpeg";
 import Sujithaa from "@/public/Volunteers/Sujithaa.jpeg";
-import SriSaratthi from "@/public/Volunteers/Sri Saratthi.webp";
+import SriSaratthi from "@/public/Volunteers/Sri sarathi.jpg";
 import harini from "@/public/Volunteers/harini.webp";
 import Rishaba from "@/public/Volunteers/rishaba.webp";
 import Vishnuraj from "@/public/Volunteers/VISHNURAJ R.webp";
@@ -88,15 +88,15 @@ export default function Team() {
     },
     {
       name: "Aarthi S",
-      role: "Organizer",
+      role: "Technical Team",
       profilepic: Aarthi,
       linkedin: "https://www.linkedin.com/in/aarthi-s-8914a9292?",
       instagram: "https://www.instagram.com/__.aarthi___?",
     },
     {
-      name: "Aravinth S",
-      role: "Organizer",
-      profilepic: Aravinth,
+      name: "Bharathvikraman K S",
+      role: "Contestant Management",
+      profilepic: Bharathvikraman,
       linkedin: "https://www.linkedin.com/in/aarthi-s-8914a9292?",
       instagram: "https://www.instagram.com/__.aarthi___?",
     },
@@ -122,7 +122,7 @@ export default function Team() {
     },
     {
       name: "Kaariniya",
-      role: "Organizer",
+      role: "MoC",
       profilepic: Kaariniya,
       linkedin: "https://www.linkedin.com/in/harini-pechimuthu-1b47972b5",
       instagram: "https://www.instagram.com/harinipechimuthu?",
@@ -167,7 +167,7 @@ export default function Team() {
     },
     {
       name: "Vikaas K S",
-      role: "Organizer",
+      role: "Technical Team",
       profilepic: Vikaas,
       linkedin: "https://www.linkedin.com/in/vikaas-k-s-7644a9292?",
       instagram: "https://www.instagram.com/vikaas_0304?",
