@@ -10,7 +10,7 @@ import Bharathvikraman from "@/public/Volunteers/bharathvikraman.jpg";
 import Kaariniya from "@/public/Volunteers/kaariniya.jpg";
 import Balaguru from "@/public/Volunteers/balaguru.jpeg";
 import Sujithaa from "@/public/Volunteers/Sujithaa.jpeg";
-import SriSaratthi from "@/public/Volunteers/Sri sarathi.jpg";
+import SriSaratthi from "@/public/Volunteers/sarathi.jpg";
 import harini from "@/public/Volunteers/harini.webp";
 import Rishaba from "@/public/Volunteers/rishaba.webp";
 import Vishnuraj from "@/public/Volunteers/VISHNURAJ R.webp";
