@@ -6,6 +6,7 @@ import { HacksphereLogo } from "@/components/HacksphereLogo";
 import TextAnimation from "@/components/TextAnimation";
 import PrizeCard from "@/components/PrizeCard";
 import PrizeCardDup from "@/components/PrizeCard copy";
+import PopupAd from '@/components/PopUp';
 import {
   InstagramLogoIcon,
   LinkedInLogoIcon,
@@ -189,7 +190,7 @@ export default function Home() {
   return (
    <div className="overflow-x-hidden">
       <Navbar />
-    
+      <PopupAd />
       <div
         className="relative flex flex-col min-h-fit p-4 pt-20 md:pt-32 md:px-12 xl:px-20 md:py-4"
       >

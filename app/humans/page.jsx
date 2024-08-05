@@ -17,7 +17,7 @@ import Vishnuraj from "@/public/Volunteers/VISHNURAJ R.webp";
 import Aarthi from "@/public/Volunteers/aarthi.webp";
 import Velan from "@/public/Volunteers/velan.jpeg";
 import Nandita from "@/public/Volunteers/Nandita.jpg";
-import Sarath from "@/public/Volunteers/sarath.webp";
+import Sarath from "@/public/Volunteers/sarath.png";
 import Gokul from "@/public/Volunteers/gokul.webp";
 import Vikaas from "@/public/Volunteers/vikaas.webp";
 import Poornila from "@/public/Volunteers/poornila.webp";
