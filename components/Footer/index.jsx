@@ -16,6 +16,7 @@ const Footer = () => {
   const navigationItems = [
     { label: "Home", href: "/" },
     { label: "Partners", href: "/partners" },
+    { label: "Finalist", href: "/final"},
     { label: "Humans", href: "/humans" },
     { label: "FAQs", href: "/faq" },
     { label: "Contact Us", href: "/contact" },
