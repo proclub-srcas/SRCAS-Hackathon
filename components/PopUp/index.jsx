@@ -31,7 +31,7 @@ const PopupAd = () => {
             >
               ×
             </button>
-            <a href={linktoAd} target="_blank" rel="noopener noreferrer">
+            <a href={'/final'}  rel="noopener noreferrer">
               <Image
                 src={popupImg}
                 alt="Ad Content"

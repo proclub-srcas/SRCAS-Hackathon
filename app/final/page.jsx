@@ -24,32 +24,76 @@ export default function Winners() {
   const winners = [
     {
       serial: 1,
-      theme: 'Education and Empowerment',
-      problemStatement: 'T1PS01',
-      teamName: 'qwerty',
-      teamID: 'T1PS01T01',
-      leaderName: 'Ram Kumar',
-      collegeName: 'abc College of Arts & Science',
+      theme: '03',
+      problemStatement: 'T3PS01',
+      teamName: 'Tech Titanz',
+      teamID: 'T3PS01T01',
+      leaderName: 'Keerthana P',
+      collegeName: 'Sri Eshwar College of Engineering'
     },
     {
       serial: 2,
-      theme: 'Sustainability',
-      problemStatement: 'Reduce Carbon Footprint',
-      teamName: 'Green Warriors',
-      teamID: 'TW001',
-      leaderName: 'John Doe',
-      collegeName: 'ABC University',
+      theme: '03',
+      problemStatement: 'T3PS01',
+      teamName: 'The Neural Ninjas',
+      teamID: 'T3PS01T07',
+      leaderName: 'Pratham Munjal',
+      collegeName: 'S.R.M Institute Of Science & Technology'
     },
     {
       serial: 3,
-      theme: 'Health and Wellness',
-      problemStatement: 'T2PS03',
-      teamName: 'Health Heroes',
-      teamID: 'T2PS03T02',
-      leaderName: 'Jane Smith',
-      collegeName: 'XYZ Institute of Technology',
+      theme: '03',
+      problemStatement: 'T3PS01',
+      teamName: 'Wind Driven Crew',
+      teamID: 'T3PS01T11',
+      leaderName: 'Arunoth Symen A',
+      collegeName: 'Christ (Deemed to be University)'
     },
-    // Add more fake details as needed
+    {
+      serial: 4,
+      theme: '03',
+      problemStatement: 'T3PS02',
+      teamName: 'AI Rebels',
+      teamID: 'T3PS02T06',
+      leaderName: 'Brinda M',
+      collegeName: 'Rathinam College of Arts and Science'
+    },
+    {
+      serial: 5,
+      theme: '03',
+      problemStatement: 'T3PS02',
+      teamName: 'THUNDERS',
+      teamID: 'T3PS02T15',
+      leaderName: 'Prakashraj M',
+      collegeName: 'Coimbatore Institute Of Technology'
+    },
+    {
+      serial: 6,
+      theme: '03',
+      problemStatement: 'T3PS03',
+      teamName: 'DevDynamos',
+      teamID: 'T3PS03T03',
+      leaderName: 'Aravindh Prabu',
+      collegeName: 'Sri Ramakrishna Engineering College'
+    },
+    {
+      serial: 7,
+      theme: '03',
+      problemStatement: 'T3PS03',
+      teamName: 'Tech Army',
+      teamID: 'T3PS03T07',
+      leaderName: 'Sanjai J',
+      collegeName: 'Sri Krishna College of Engineering and Technology'
+    },
+    {
+      serial: 8,
+      theme: '03',
+      problemStatement: 'T3PS03',
+      teamName: 'ECO LEDGENCE',
+      teamID: 'T3PS03T09',
+      leaderName: 'Karmuhilan DB',
+      collegeName: 'Rathinam College Of Arts And Science'
+    },
   ];
 
   return (
@@ -66,8 +110,12 @@ export default function Winners() {
             />
           </div>
         </div>
-        <div className="container mx-auto p-12 px-2">
-          <div className="overflow-x-auto rounded-md mx-20">
+        <div className="mt-8 text-center text-white">
+          <p className="text-lg md:text-xl lg:text-3xl">For Theme 1 & 2 results will be announced soon..</p>
+          <p className="text-lg md:text-xl lg:text-3xl">And all the selected teams will receive mail on 06.08.2024</p>
+        </div>
+        <div className="container mx-auto p-4 md:p-12">
+          <div className="overflow-x-auto rounded-md">
             <table className="min-w-full border border-yellow-500 bg-white">
               <thead>
                 <tr className="bg-yellow-800 text-white">
@@ -89,7 +137,7 @@ export default function Winners() {
                     <td className="py-2 px-4 border-b">{winner.teamName}</td>
                     <td className="py-2 px-4 border-b">{winner.teamID}</td>
                     <td className="py-2 px-4 border-b">{winner.leaderName}</td>
-                    <td className="py-2 px-4 border-b">{winner.collegeName}</td>
+                    <td className="py-6 px-12 border-b">{winner.collegeName}</td>
                   </tr>
                 ))}
               </tbody>
