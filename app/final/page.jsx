@@ -10,7 +10,7 @@ export const metadata = {
   description: "List of winners of SRCAS Hackathon.",
   keywords: "Winners, SRCAS Hackathon, SRCAS, Hackathon",
   openGraph: {
-    title: "Winners | SRCAS Hackathon",
+    title: "Finalists | SRCAS Hackathon",
     description: "List of winners of SRCAS Hackathon.",
     url: "https://srcashackathon.live/winners",
     images: "https://github.com/proclub-srcas/SRCAS-Hackathon/blob/main/public/srcas-hack-og.png",
