@@ -255,10 +255,6 @@ export default function Winners() {
             />
           </div>
         </div>
-        <div className="mt-8 text-center text-white">
-          <p className="text-lg md:text-xl lg:text-3xl">For Theme 1 & 2 results will be announced soon..</p>
-          <p className="text-lg md:text-xl lg:text-3xl">And all the selected teams will receive mail on 06.08.2024</p>
-        </div>
         <div className="container mx-auto p-4 md:p-12">
           <div className="overflow-x-auto rounded-md">
             <table className="min-w-full border border-yellow-500 bg-white">
