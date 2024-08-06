@@ -255,6 +255,10 @@ export default function Winners() {
             />
           </div>
         </div>
+        <div className="mt-8 text-center text-white">
+          <p className="text-lg md:text-xl lg:text-3xl">Congratulations to all the selected teams!</p>
+          <p className="text-lg md:text-xl lg:text-3xl">All the Selected teams will be notified with further steps soon...</p>
+        </div>
         <div className="container mx-auto p-4 md:p-12">
           <div className="overflow-x-auto rounded-md">
             <table className="min-w-full border border-yellow-500 bg-white">
