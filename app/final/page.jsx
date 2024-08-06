@@ -150,12 +150,12 @@ export default function Winners() {
     },
     {
       serial: 15,
-      theme: '02',
-      problemStatement: 'T2PS03',
-      teamName: 'Bharath Foods',
-      teamID: 'T2PS03T07',
-      leaderName: 'Bharath',
-      collegeName: 'Periyar University, Salem'
+      theme: 'N/A',
+      problemStatement: 'N/A',
+      teamName: 'N/A',
+      teamID: 'N/A',
+      leaderName: 'N/A',
+      collegeName: 'N/A'
     },
     {
       serial: 16,
