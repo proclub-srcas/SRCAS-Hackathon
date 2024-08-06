@@ -6,7 +6,7 @@ import TextAnimation from "@/components/TextAnimation";
 import "./page.css";
 
 export const metadata = {
-  title: "Winners | SRCAS Hackathon",
+  title: "Finalists | SRCAS Hackathon",
   description: "List of winners of SRCAS Hackathon.",
   keywords: "Winners, SRCAS Hackathon, SRCAS, Hackathon",
   openGraph: {
