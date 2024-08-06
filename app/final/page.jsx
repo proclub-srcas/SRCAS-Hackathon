@@ -21,9 +21,153 @@ export const metadata = {
 };
 
 export default function Winners() {
-  const winners = [
+ const winners = [
     {
       serial: 1,
+      theme: '01',
+      problemStatement: 'T1PS01',
+      teamName: 'ZGDX',
+      teamID: 'T1PS01T12',
+      leaderName: 'Pavithra S',
+      collegeName: 'Sri Ramakrishna College of Arts & Science'
+    },
+    {
+      serial: 2,
+      theme: '01',
+      problemStatement: 'T1PS01',
+      teamName: 'CODE HACKERS',
+      teamID: 'T1PS01T13',
+      leaderName: 'Rajashree B',
+      collegeName: 'Sri Ramakrishna College of Arts and Science for Women'
+    },
+    {
+      serial: 3,
+      theme: '01',
+      problemStatement: 'T1PS01',
+      teamName: 'Tech Titans',
+      teamID: 'T1PS01T21',
+      leaderName: 'Divya R',
+      collegeName: 'Sri G.V.G. Visalakshi College for Women'
+    },
+    {
+      serial: 4,
+      theme: '01',
+      problemStatement: 'T1PS01',
+      teamName: 'THE MOGGERS',
+      teamID: 'T1PS01T38',
+      leaderName: 'Raghul M',
+      collegeName: 'Sri Ramakrishna College of Arts & Science'
+    },
+    {
+      serial: 5,
+      theme: '01',
+      problemStatement: 'T1PS02',
+      teamName: 'We Tried',
+      teamID: 'T1PS02T06',
+      leaderName: 'Lakshmi Prabha S',
+      collegeName: 'KG College of Arts and Science'
+    },
+    {
+      serial: 6,
+      theme: '01',
+      problemStatement: 'T1PS02',
+      teamName: 'BYTE KARMA',
+      teamID: 'T1PS02T18',
+      leaderName: 'Tharun Prakash V',
+      collegeName: 'Dr. Mahalingam College of Engineering and Technology'
+    },
+    {
+      serial: 7,
+      theme: '01',
+      problemStatement: 'T1PS02',
+      teamName: 'TECH ARMY',
+      teamID: 'T1PS02T23',
+      leaderName: 'Padmapriya C',
+      collegeName: 'St.Joseph\'s Institute of Technology'
+    },
+    {
+      serial: 8,
+      theme: '01',
+      problemStatement: 'T1PS03',
+      teamName: 'CODE KARMA',
+      teamID: 'T1PS03T02',
+      leaderName: 'Sanchana S',
+      collegeName: 'Kalasalingam Academy of Research and Education'
+    },
+    {
+      serial: 9,
+      theme: '02',
+      problemStatement: 'T2PS01',
+      teamName: 'DATA ACES',
+      teamID: 'T2PS01T02',
+      leaderName: 'Hirthick S',
+      collegeName: 'Thiagarajar College of Engineering'
+    },
+    {
+      serial: 10,
+      theme: '02',
+      problemStatement: 'T2PS01',
+      teamName: 'Daydreamers',
+      teamID: 'T2PS01T06',
+      leaderName: 'Hariprasath V',
+      collegeName: 'Velammal Engineering College'
+    },
+    {
+      serial: 11,
+      theme: '02',
+      problemStatement: 'T2PS01',
+      teamName: 'Yugo',
+      teamID: 'T2PS01T12',
+      leaderName: 'Raksha V',
+      collegeName: 'Sona College of Technology'
+    },
+    {
+      serial: 12,
+      theme: '02',
+      problemStatement: 'T2PS01',
+      teamName: 'CYKLONES',
+      teamID: 'T2PS01T55',
+      leaderName: 'Larwin J',
+      collegeName: 'Sri Krishna College of Engineering & Technology'
+    },
+    {
+      serial: 13,
+      theme: '02',
+      problemStatement: 'T2PS02',
+      teamName: 'Earth Guardians',
+      teamID: 'T2PS02T13',
+      leaderName: 'Sivaranjani V',
+      collegeName: 'KG College of Arts and Science'
+    },
+    {
+      serial: 14,
+      theme: '02',
+      problemStatement: 'T2PS02',
+      teamName: 'BlockChain Wizards',
+      teamID: 'T2PS02T17',
+      leaderName: 'Jeeva M',
+      collegeName: 'Sri Krishna College of Engineering and Technology'
+    },
+    {
+      serial: 15,
+      theme: '02',
+      problemStatement: 'T2PS03',
+      teamName: 'Bharath Foods',
+      teamID: 'T2PS03T07',
+      leaderName: 'Bharath',
+      collegeName: 'Periyar University, Salem'
+    },
+    {
+      serial: 16,
+      theme: '02',
+      problemStatement: 'T2PS03',
+      teamName: 'Sentinels',
+      teamID: 'T2PS03T09',
+      leaderName: 'Lithika Sri G',
+      collegeName: 'Sri Sai Ram Engineering College'
+    },
+    {
+      serial: 17,
       theme: '03',
       problemStatement: 'T3PS01',
       teamName: 'Tech Titanz',
@@ -32,7 +176,7 @@ export default function Winners() {
       collegeName: 'Sri Eshwar College of Engineering'
     },
     {
-      serial: 2,
+      serial: 18,
       theme: '03',
       problemStatement: 'T3PS01',
       teamName: 'The Neural Ninjas',
@@ -41,7 +185,7 @@ export default function Winners() {
       collegeName: 'S.R.M Institute Of Science & Technology'
     },
     {
-      serial: 3,
+      serial: 19,
       theme: '03',
       problemStatement: 'T3PS01',
       teamName: 'Wind Driven Crew',
@@ -50,7 +194,7 @@ export default function Winners() {
       collegeName: 'Christ (Deemed to be University)'
     },
     {
-      serial: 4,
+      serial: 20,
       theme: '03',
       problemStatement: 'T3PS02',
       teamName: 'AI Rebels',
@@ -59,7 +203,7 @@ export default function Winners() {
       collegeName: 'Rathinam College of Arts and Science'
     },
     {
-      serial: 5,
+      serial: 21,
       theme: '03',
       problemStatement: 'T3PS02',
       teamName: 'THUNDERS',
@@ -68,7 +212,7 @@ export default function Winners() {
       collegeName: 'Coimbatore Institute Of Technology'
     },
     {
-      serial: 6,
+      serial: 22,
       theme: '03',
       problemStatement: 'T3PS03',
       teamName: 'DevDynamos',
@@ -77,7 +221,7 @@ export default function Winners() {
       collegeName: 'Sri Ramakrishna Engineering College'
     },
     {
-      serial: 7,
+      serial: 23,
       theme: '03',
       problemStatement: 'T3PS03',
       teamName: 'Tech Army',
@@ -86,159 +230,16 @@ export default function Winners() {
       collegeName: 'Sri Krishna College of Engineering and Technology'
     },
     {
-      serial: 8,
+      serial: 24,
       theme: '03',
       problemStatement: 'T3PS03',
       teamName: 'ECO LEDGENCE',
       teamID: 'T3PS03T09',
       leaderName: 'Karmuhilan DB',
       collegeName: 'Rathinam College Of Arts And Science'
-    },
-    // {
-    //   serial: 1,
-    //   theme: '01',
-    //   problemStatement: 'T3PS01',
-    //   teamName: 'Tech Titanz',
-    //   teamID: 'T3PS01T01',
-    //   leaderName: 'Keerthana P',
-    //   collegeName: 'Sri Eshwar College of Engineering'
-    // },
-    // {
-    //   serial: 2,
-    //   theme: '01',
-    //   problemStatement: 'T3PS01',
-    //   teamName: 'The Neural Ninjas',
-    //   teamID: 'T3PS01T07',
-    //   leaderName: 'Pratham Munjal',
-    //   collegeName: 'S.R.M Institute Of Science & Technology'
-    // },
-    // {
-    //   serial: 3,
-    //   theme: '01',
-    //   problemStatement: 'T3PS01',
-    //   teamName: 'Wind Driven Crew',
-    //   teamID: 'T3PS01T11',
-    //   leaderName: 'Arunoth Symen A',
-    //   collegeName: 'Christ (Deemed to be University)'
-    // },
-    // {
-    //   serial: 4,
-    //   theme: '01',
-    //   problemStatement: 'T3PS02',
-    //   teamName: 'AI Rebels',
-    //   teamID: 'T3PS02T06',
-    //   leaderName: 'Brinda M',
-    //   collegeName: 'Rathinam College of Arts and Science'
-    // },
-    // {
-    //   serial: 5,
-    //   theme: '01',
-    //   problemStatement: 'T3PS02',
-    //   teamName: 'THUNDERS',
-    //   teamID: 'T3PS02T15',
-    //   leaderName: 'Prakashraj M',
-    //   collegeName: 'Coimbatore Institute Of Technology'
-    // },
-    // {
-    //   serial: 6,
-    //   theme: '01',
-    //   problemStatement: 'T3PS01',
-    //   teamName: 'DevDynamos',
-    //   teamID: 'T3PS01T01',
-    //   leaderName: 'Aravindh Prabu',
-    //   collegeName: 'Sri Ramakrishna Engineering College'
-    // },
-    // {
-    //   serial: 7,
-    //   theme: '01',
-    //   problemStatement: 'T3PS01',
-    //   teamName: 'Tech Army',
-    //   teamID: 'T3PS01T07',
-    //   leaderName: 'Sanjai J',
-    //   collegeName: 'Sri Krishna College of Engineering and Technology'
-    // },
-    // {
-    //   serial: 8,
-    //   theme: '01',
-    //   problemStatement: 'T3PS01',
-    //   teamName: 'ECO LEDGENCE',
-    //   teamID: 'T3PS01T09',
-    //   leaderName: 'Karmuhilan DB',
-    //   collegeName: 'Rathinam College Of Arts And Science'
-    // },
-    // {
-    //   serial: 1,
-    //   theme: '02',
-    //   problemStatement: 'T3PS01',
-    //   teamName: 'Tech Titanz',
-    //   teamID: 'T3PS01T01',
-    //   leaderName: 'Keerthana P',
-    //   collegeName: 'Sri Eshwar College of Engineering'
-    // },
-    // {
-    //   serial: 2,
-    //   theme: '02',
-    //   problemStatement: 'T3PS01',
-    //   teamName: 'The Neural Ninjas',
-    //   teamID: 'T3PS01T07',
-    //   leaderName: 'Pratham Munjal',
-    //   collegeName: 'S.R.M Institute Of Science & Technology'
-    // },
-    // {
-    //   serial: 3,
-    //   theme: '02',
-    //   problemStatement: 'T3PS01',
-    //   teamName: 'Wind Driven Crew',
-    //   teamID: 'T3PS01T11',
-    //   leaderName: 'Arunoth Symen A',
-    //   collegeName: 'Christ (Deemed to be University)'
-    // },
-    // {
-    //   serial: 4,
-    //   theme: '02',
-    //   problemStatement: 'T3PS02',
-    //   teamName: 'AI Rebels',
-    //   teamID: 'T3PS02T06',
-    //   leaderName: 'Brinda M',
-    //   collegeName: 'Rathinam College of Arts and Science'
-    // },
-    // {
-    //   serial: 5,
-    //   theme: '02',
-    //   problemStatement: 'T3PS02',
-    //   teamName: 'THUNDERS',
-    //   teamID: 'T3PS02T15',
-    //   leaderName: 'Prakashraj M',
-    //   collegeName: 'Coimbatore Institute Of Technology'
-    // },
-    // {
-    //   serial: 6,
-    //   theme: '02',
-    //   problemStatement: 'T3PS02',
-    //   teamName: 'DevDynamos',
-    //   teamID: 'T3PS02T02',
-    //   leaderName: 'Aravindh Prabu',
-    //   collegeName: 'Sri Ramakrishna Engineering College'
-    // },
-    // {
-    //   serial: 7,
-    //   theme: '02',
-    //   problemStatement: 'T3PS02',
-    //   teamName: 'Tech Army',
-    //   teamID: 'T3PS02T07',
-    //   leaderName: 'Sanjai J',
-    //   collegeName: 'Sri Krishna College of Engineering and Technology'
-    // },
-    // {
-    //   serial: 8,
-    //   theme: '02',
-    //   problemStatement: 'T3PS02',
-    //   teamName: 'ECO LEDGENCE',
-    //   teamID: 'T3PS02T09',
-    //   leaderName: 'Karmuhilan DB',
-    //   collegeName: 'Rathinam College Of Arts And Science'
-    // },
-  ];
+    }
+];
+
 
   return (
     <>
