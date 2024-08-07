@@ -150,12 +150,12 @@ export default function Winners() {
     },
     {
       serial: 15,
-      theme: 'N/A',
-      problemStatement: 'N/A',
-      teamName: 'N/A',
-      teamID: 'N/A',
-      leaderName: 'N/A',
-      collegeName: 'N/A'
+      theme: '02',
+      problemStatement: 'T2PS03',
+      teamName: 'Hint Crafters',
+      teamID: 'T2PS03T10',
+      leaderName: 'Mathivathani AG',
+      collegeName: 'Sri Ramakrishna College of Arts & Science'
     },
     {
       serial: 16,
