@@ -37,6 +37,7 @@ export default function RootLayout({ children }) {
           `}
         </Script>
         <link rel="icon" href="/icon.png" type="image/png" />
+        <meta name="google-site-verification" content="6orsia4K3svgIAQezFL-wyaTr3eRtXACidLrQOqZ6x4" />
       </head>
       <body>{children}</body>
     </html>
